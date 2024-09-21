@@ -1,11 +1,11 @@
 package ru.vsu.cs.course2.oop;
 
 public class Group {
-    private final int number;
-    private final String direction;
+    private final int group;
+    private final int subgroup;
 
-    public Group(int number, String direction) {
-        this.number = number;
-        this.direction = direction;
+    public Group(int number, int subgroup) {
+        this.group = number;
+        this.subgroup = subgroup;
     }
 }

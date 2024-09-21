@@ -17,9 +17,9 @@ public class main {
 
     public static void main(String[] args){
 
-        Student student = new Student(LanguageLevel.B1, 20, "Ivan", "Ivanov", Gender.MALE, new Group(6, "General"));
-        Student spanishStudent = new spanishStudent(LanguageLevel.C1, 24, "Anna", "Smirnova", Gender.FEMALE, new Group(3, "Spanish"));
-        Student chineseStudent = new chineseStudent(LanguageLevel.A1, 21, "Makar", "Samokhin", Gender.MALE, new Group(2, "Chinese"));
+        Student student = new Student("Ivan", "Ivanov", 20, LanguageLevel.B1, Gender.MALE, new Group(6, 1));
+        Student spanishStudent = new spanishStudent("Anna", "Smirnova", 24, LanguageLevel.C1, Gender.FEMALE, new Group(3, 2));
+        Student chineseStudent = new chineseStudent("Makar", "Samokhin", 21, LanguageLevel.A1, Gender.MALE, new Group(2, 1));
 
         student.language();
         spanishStudent.language();

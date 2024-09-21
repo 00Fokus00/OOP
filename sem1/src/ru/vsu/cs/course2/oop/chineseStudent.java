@@ -2,8 +2,8 @@ package ru.vsu.cs.course2.oop;
 
 public class chineseStudent extends Student{
 
-    public chineseStudent(main.LanguageLevel level, int age, String name, String surname, main.Gender gender, Group group) {
-        super(level, age, name, surname, gender, group);
+    public chineseStudent(String name, String surname, int age, main.LanguageLevel level, main.Gender gender, Group group) {
+        super(name, surname, age, level, gender, group);
     }
 
     @Override
