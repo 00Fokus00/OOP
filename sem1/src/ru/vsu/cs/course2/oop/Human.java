@@ -1,6 +1,6 @@
 package ru.vsu.cs.course2.oop;
 
-public abstract class Human {
+public class Human implements Interfaces.Speaking {
     private final int age;
     private final String name;
     private final String surname;
@@ -15,5 +15,10 @@ public abstract class Human {
     }
     public String toString(){
         return name + " " + surname + " " + age + " " + gender;
+    }
+
+    @Override
+    public void speak() {
+        System.out.println("Я не учу иностранные языки:(");
     }
 }
